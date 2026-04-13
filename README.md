@@ -40,7 +40,7 @@ npm install -g newman-reporter-html
 ```
 newman run ServeRest.postman_collection.json -e serveRest_env.postman_environment.json -r cli
 ```
-- Execute os teste com relatório
+- Execute os testes com relatório
 ```
 newman run ServeRest.postman_collection.json -e serveRest_env.postman_environment.json -r cli,htmlextra
 ```
