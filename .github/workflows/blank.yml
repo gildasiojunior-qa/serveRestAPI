@@ -15,7 +15,7 @@ jobs:
         run: |
           mkdir testArtifacts
 
-      - name: Install Newman
+      - name: Istall Newman
         run: |
           npm install -g newman
           npm install -g newman-reporter-htmlextra
